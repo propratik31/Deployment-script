@@ -4,7 +4,6 @@ sudo chmod 755 /tmp/installDocker.sh
 sudo bash /tmp/installDocker.sh
 sudo systemctl restart docker.service
 
-
 ## Install CRI-Docker
 sudo wget https://raw.githubusercontent.com/lerndevops/labs/master/scripts/installCRIDockerd.sh -P /tmp
 sudo chmod 755 /tmp/installCRIDockerd.sh
